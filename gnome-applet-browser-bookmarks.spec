@@ -2,12 +2,12 @@
 Summary:	Small applet to allow easy access to bookmarks
 Summary(pl):	Ma³y aplet umo¿liwiaj±cy ³atwy dostêp do zak³adek
 Name:		gnome-applet-browser-bookmarks
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/browserbookapp/%{_realname}-%{version}.tar.gz
-# Source0-md5:	963715aac76d75b2c7ae46e74b1439b6
+# Source0-md5:	9af490f32e1651f682984f69d2299955
 URL:		http://browserbookapp.sourceforge.net
 Requires:	python-gnome-applet
 Requires:	python-gnome-gconf
@@ -21,12 +21,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a small GNOME applet to allow easy access to your browser's
 bookmarks, even when your browser is not open. It supports Mozilla,
-Mozilla Firefox and Epiphany bookmarks.
+Mozilla Firefox, Epiphany, Galeon and Konqueror bookmarks.
 
 %description -l pl
 Ma³y aplet GNOME umo¿liwiaj±cy ³atwy dostêp do zak³adek, nawet gdy
 przegl±darka WWW nie jest uruchomiona. Obs³ugiwane przegl±darki to:
-Mozilla, Mozilla Firefox i Epiphany.
+Mozilla, Mozilla Firefox, Epiphany, Galeon i Konqueror.
 
 %prep
 %setup -q -n %{_realname}-%{version}
