@@ -4,7 +4,7 @@ Summary(pl):	Ma³y aplet umo¿liwiaj±cy ³atwy dostêp do zak³adek
 Name:		gnome-applet-browser-bookmarks
 Version:	0.3
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/browserbookapp/%{_realname}-%{version}.tar.gz
 # Source0-md5:	9af490f32e1651f682984f69d2299955
@@ -50,5 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc CHANGELOG
 %attr(755,root,root) %{_appletdirname}
 %{_libdir}/bonobo/servers/*.server
