@@ -8,7 +8,8 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/browserbookapp/%{_realname}-%{version}.tar.gz
 # Source0-md5:	9af490f32e1651f682984f69d2299955
-URL:		http://browserbookapp.sourceforge.net
+URL:		http://browserbookapp.sourceforge.net/
+BuildRequires:	sed >= 4.0
 Requires:	python-gnome-applet
 Requires:	python-gnome-gconf
 Requires:	python-gnome-ui
