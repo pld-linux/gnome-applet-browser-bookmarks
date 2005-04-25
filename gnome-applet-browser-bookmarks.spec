@@ -2,17 +2,18 @@
 Summary:	Small applet to allow easy access to bookmarks
 Summary(pl):	Ma³y aplet umo¿liwiaj±cy ³atwy dostêp do zak³adek
 Name:		gnome-applet-browser-bookmarks
-Version:	0.4
+Version:	0.5
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/browserbookapp/%{_realname}-%{version}.tar.gz
-# Source0-md5:	45a707c9ec82dec244e749d2aafe10f3
+# Source0-md5:	15d5ef9e395961ebc36bcd872baa99c7
 URL:		http://browserbookapp.sourceforge.net/
 BuildRequires:	sed >= 4.0
 Requires:	python-gnome-applet
 Requires:	python-gnome-gconf
 Requires:	python-gnome-ui
+Requires:	python-pygtk-gtk >= 2:2.6.0
 Requires:	python-libxml2
 Requires(post):	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -33,7 +34,7 @@ Mozilla, Mozilla Firefox, Epiphany, Galeon i Konqueror.
 %setup -q -n %{_realname}-%{version}
 
 %build
-sed -i -e "s:%{_prefix}/libexec:%{_appletdirname}:" BrowserBookmarksMenu.server
+sed -i -e "s:/usr/lib/%{_realname}:%{_appletdirname}:" BrowserBookmarksMenu.server
 
 %install
 rm -rf $RPM_BUILD_ROOT
