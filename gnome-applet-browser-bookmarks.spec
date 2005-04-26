@@ -15,7 +15,6 @@ Requires:	python-gnome-gconf
 Requires:	python-gnome-ui
 Requires:	python-pygtk-gtk >= 2:2.6.0
 Requires:	python-libxml2
-Requires(post):	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_appletdirname		%{_datadir}/browser-bookmarks-applet
@@ -45,9 +44,6 @@ install browser-bookmarks-menu.py $RPM_BUILD_ROOT%{_appletdirname}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-%gconf_schema_install
 
 %files
 %defattr(644,root,root,755)
