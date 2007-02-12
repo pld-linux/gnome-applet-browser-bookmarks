@@ -1,6 +1,6 @@
 %define		_realname	browser-bookmarks-menu
 Summary:	Small applet to allow easy access to bookmarks
-Summary(pl):	Ma³y aplet umo¿liwiaj±cy ³atwy dostêp do zak³adek
+Summary(pl.UTF-8):   MaÅ‚y aplet umoÅ¼liwiajÄ…cy Å‚atwy dostÄ™p do zakÅ‚adek
 Name:		gnome-applet-browser-bookmarks
 Version:	0.5
 Release:	2
@@ -25,9 +25,9 @@ This is a small GNOME applet to allow easy access to your browser's
 bookmarks, even when your browser is not open. It supports Mozilla,
 Mozilla Firefox, Epiphany, Galeon and Konqueror bookmarks.
 
-%description -l pl
-Ma³y aplet GNOME umo¿liwiaj±cy ³atwy dostêp do zak³adek, nawet gdy
-przegl±darka WWW nie jest uruchomiona. Obs³ugiwane przegl±darki to:
+%description -l pl.UTF-8
+MaÅ‚y aplet GNOME umoÅ¼liwiajÄ…cy Å‚atwy dostÄ™p do zakÅ‚adek, nawet gdy
+przeglÄ…darka WWW nie jest uruchomiona. ObsÅ‚ugiwane przeglÄ…darki to:
 Mozilla, Mozilla Firefox, Epiphany, Galeon i Konqueror.
 
 %prep
