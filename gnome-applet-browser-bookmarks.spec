@@ -1,6 +1,6 @@
 %define		_realname	browser-bookmarks-menu
 Summary:	Small applet to allow easy access to bookmarks
-Summary(pl.UTF-8):   Mały aplet umożliwiający łatwy dostęp do zakładek
+Summary(pl.UTF-8):	Mały aplet umożliwiający łatwy dostęp do zakładek
 Name:		gnome-applet-browser-bookmarks
 Version:	0.5
 Release:	2
