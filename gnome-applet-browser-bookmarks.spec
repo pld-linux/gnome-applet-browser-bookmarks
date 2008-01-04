@@ -2,12 +2,12 @@
 Summary:	Small applet to allow easy access to bookmarks
 Summary(pl.UTF-8):	Mały aplet umożliwiający łatwy dostęp do zakładek
 Name:		gnome-applet-browser-bookmarks
-Version:	0.5
-Release:	2
+Version:	0.6
+Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/browserbookapp/%{_realname}-%{version}.tar.gz
-# Source0-md5:	15d5ef9e395961ebc36bcd872baa99c7
+# Source0-md5:	e9f312503d56a291a820911483c6507d
 URL:		http://browserbookapp.sourceforge.net/
 BuildRequires:	sed >= 4.0
 Requires:	python-gnome-applet
