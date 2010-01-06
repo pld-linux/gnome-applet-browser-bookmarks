@@ -9,13 +9,14 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/browserbookapp/%{_realname}-%{version}.tar.gz
 # Source0-md5:	e9f312503d56a291a820911483c6507d
 URL:		http://browserbookapp.sourceforge.net/
+BuildRequires:	rpm-pythonprov
 BuildRequires:	sed >= 4.0
 Requires:	python-gnome-applet
 Requires:	python-gnome-gconf
 Requires:	python-gnome-ui
 Requires:	python-gnome-vfs
-Requires:	python-pygtk-gtk >= 2:2.6.0
 Requires:	python-libxml2
+Requires:	python-pygtk-gtk >= 2:2.6.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_appletdirname		%{_datadir}/browser-bookmarks-applet
